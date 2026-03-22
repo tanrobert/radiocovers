@@ -54,6 +54,7 @@ jobs:
           git add src/data/covers.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update covers.json $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
           else
             echo "Nessuna modifica."

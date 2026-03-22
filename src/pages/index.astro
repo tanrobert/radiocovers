@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import coversRaw from '../data/covers.json';
 
 type Album = { albumName: string; coverUrl: string };
-const coversData = coversRaw as Record<string, Album[]>;
+const coversData = coversRaw as unknown as Record<string, Album[]>;
 
 // Appiattisci tutti gli album di tutti gli artisti
 const albums: Array<{ artistName: string; albumName: string; coverUrl: string }> = [];
