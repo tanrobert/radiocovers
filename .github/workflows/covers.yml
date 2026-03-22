@@ -1,0 +1,60 @@
+name: Update covers
+
+on:
+  schedule:
+    - cron: '15 * * * *'   # ogni ora, 10 minuti dopo lo scraper (cron: '5 * * * *')
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout radiocovers repo
+        uses: actions/checkout@v4
+
+      - name: Scarica playlist dalla repo scraper (privata)
+        run: |
+          curl -f \
+               -H "Authorization: token ${{ secrets.SCRAPER_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               -L "https://api.github.com/repos/${{ secrets.SCRAPER_REPO }}/contents/playlists/s2.shoutitaly.com_8030.txt" \
+               -o playlist.txt
+          echo "Righe playlist: $(wc -l < playlist.txt)"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Installa dipendenze Python
+        run: pip install requests
+
+      - name: Fetch copertine (incrementale)
+        run: python fetch_covers.py
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Installa dipendenze Astro
+        run: npm ci
+
+      - name: Build sito Astro
+        run: npm run build
+
+      - name: Commit covers.json se aggiornato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/covers.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update covers.json $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "Nessuna modifica."
+          fi

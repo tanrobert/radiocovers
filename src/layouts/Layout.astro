@@ -1,0 +1,81 @@
+---
+interface Props {
+  title?: string;
+}
+const { title = 'Radio Prog — Album Covers' } = Astro.props;
+---
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Salta al contenuto</a>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #1a1a1a;
+    --text: #e0e0e0;
+    --muted: #666;
+    --accent: #c8a96e;
+  }
+
+  html {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    min-height: 100vh;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  a, button, [role="button"] {
+    touch-action: manipulation;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 13px;
+    padding: 8px 21px;
+    background: var(--accent);
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 9999;
+    transition: top 0.2s;
+    text-decoration: none;
+  }
+  .skip-link:focus { top: 13px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
