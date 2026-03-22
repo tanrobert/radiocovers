@@ -12,6 +12,9 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
     <meta name="color-scheme" content="dark" />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
   </head>
   <body>
     <a href="#main" class="skip-link">Salta al contenuto</a>
@@ -27,17 +30,48 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
   }
 
   :root {
-    --bg: #0d0d0d;
-    --surface: #1a1a1a;
-    --text: #e0e0e0;
-    --muted: #666;
-    --accent: #c8a96e;
+    /* Palette base */
+    --rosso:  hsl(8 87% 54%);
+    --nero:   hsl(0 12% 13%);
+    --giallo: hsl(55 89% 53%);
+    --verde:  hsl(143 88% 54%);
+    --bianco: hsl(0 15% 89%);
+
+    /* Scala nero */
+    --nero-05: hsl(from var(--nero) h s 7%);
+    --nero-13: var(--nero);
+    --nero-21: hsl(from var(--nero) h s 19%);
+    --nero-34: hsl(from var(--nero) h s 30%);
+    --nero-55: hsl(from var(--nero) h s 46%);
+    --nero-89: hsl(from var(--nero) h s 85%);
+
+    /* Scala rosso */
+    --rosso-13: hsl(from var(--rosso) h s 10%);
+    --rosso-21: hsl(from var(--rosso) h s 18%);
+    --rosso-34: hsl(from var(--rosso) h s 30%);
+    --rosso-55: var(--rosso);
+    --rosso-89: hsl(from var(--rosso) h s 82%);
+
+    /* Spaziatura Fibonacci */
+    --s5: 5px; --s8: 8px; --s13: 13px; --s21: 21px;
+    --s34: 34px; --s55: 55px; --s89: 89px; --s144: 144px;
+
+    /* Font weights */
+    --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600;
+    --fw-bold: 700; --fw-extrabold: 800;
+
+    /* Semantic — dark theme */
+    --bg:      var(--nero-05);
+    --surface: var(--nero-21);
+    --text:    var(--bianco);
+    --muted:   var(--nero-55);
+    --accent:  var(--rosso);
   }
 
   html {
     background: var(--bg);
     color: var(--text);
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   body {
@@ -60,7 +94,7 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
     left: 13px;
     padding: 8px 21px;
     background: var(--accent);
-    color: #000;
+    color: var(--bianco);
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;

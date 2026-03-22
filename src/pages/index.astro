@@ -27,6 +27,15 @@ const totalArtists = Object.keys(coversData).length;
       <span class="sep">·</span>
       <span>{totalArtists} artisti</span>
     </p>
+    <div class="controls">
+      <button id="btn-asc"  class="sort-btn active" aria-pressed="true"  title="A → Z">A <span class="arrow">↑</span></button>
+      <button id="btn-desc" class="sort-btn"         aria-pressed="false" title="Z → A">A <span class="arrow">↓</span></button>
+      <span class="sep-v">|</span>
+      <button class="sort-btn size-btn"        data-size="250"  aria-pressed="false">SM</button>
+      <button class="sort-btn size-btn active" data-size="500"  aria-pressed="true" >MD</button>
+      <button class="sort-btn size-btn"        data-size="750"  aria-pressed="false">LG</button>
+      <button class="sort-btn size-btn"        data-size="1000" aria-pressed="false">XL</button>
+    </div>
   </header>
 
   <main id="main">
@@ -39,8 +48,6 @@ const totalArtists = Object.keys(coversData).length;
               alt={`${artistName} — ${albumName}`}
               loading="lazy"
               decoding="async"
-              width="300"
-              height="300"
               onerror="this.src='/placeholder.svg'"
             />
           </div>
@@ -82,7 +89,7 @@ const totalArtists = Object.keys(coversData).length;
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
     gap: 16px;
     list-style: none;
   }
@@ -131,4 +138,90 @@ const totalArtists = Object.keys(coversData).length;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0.75rem;
+  }
+
+  .sort-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+    touch-action: manipulation;
+  }
+
+  .sort-btn.active {
+    border-color: var(--muted);
+    color: var(--muted);
+  }
+
+  .sort-btn:hover:not(.active) {
+    color: var(--text);
+  }
+
+  .sort-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .arrow { font-size: 0.9em; }
+
+  @media (max-width: 600px) {
+    .size-btn,
+    .sep-v { display: none; }
+  }
+
+  .sep-v {
+    color: var(--muted);
+    opacity: 0.3;
+    font-size: 0.8rem;
+    align-self: center;
+    user-select: none;
+  }
 </style>
+
+<script>
+  const list    = document.querySelector('.grid') as HTMLElement;
+  const btnAsc  = document.getElementById('btn-asc')!;
+  const btnDesc = document.getElementById('btn-desc')!;
+  let ascending = true;
+
+  function setOrder(asc: boolean) {
+    if (asc === ascending) return;
+    ascending = asc;
+    const items = [...list.children] as HTMLElement[];
+    items.reverse().forEach(el => list.appendChild(el));
+    btnAsc.classList.toggle('active', asc);
+    btnDesc.classList.toggle('active', !asc);
+    btnAsc.setAttribute('aria-pressed', String(asc));
+    btnDesc.setAttribute('aria-pressed', String(!asc));
+  }
+
+  btnAsc.addEventListener('click',  () => setOrder(true));
+  btnDesc.addEventListener('click', () => setOrder(false));
+
+  const sizeBtns = document.querySelectorAll<HTMLButtonElement>('.size-btn');
+  sizeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const size = btn.dataset.size!;
+      list.style.gridTemplateColumns = `repeat(auto-fill, minmax(min(${size}px, 100%), 1fr))`;
+      sizeBtns.forEach(b => {
+        b.classList.toggle('active', b === btn);
+        b.setAttribute('aria-pressed', String(b === btn));
+      });
+    });
+  });
+</script>
