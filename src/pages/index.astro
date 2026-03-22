@@ -21,7 +21,7 @@ const totalArtists = Object.keys(coversData).length;
 
 <Layout>
   <header>
-    <h1>Radio Prog</h1>
+    <h1>PROGRESSIVE COVERS</h1>
     <p class="subtitle">
       <span>{totalAlbums} album</span>
       <span class="sep">·</span>
@@ -35,13 +35,22 @@ const totalArtists = Object.keys(coversData).length;
       <button class="sort-btn size-btn active" data-size="500"  aria-pressed="true" >MD</button>
       <button class="sort-btn size-btn"        data-size="750"  aria-pressed="false">LG</button>
       <button class="sort-btn size-btn"        data-size="1000" aria-pressed="false">XL</button>
+      <span class="sep-v">|</span>
+      <div class="search-wrap">
+        <input id="search-input" class="search-input" type="search" placeholder="Cerca…" aria-label="Cerca artista o album" />
+        <button id="search-btn" class="sort-btn" title="Cerca" aria-label="Cerca">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
 
   <main id="main">
     <ul class="grid" role="list">
       {albums.map(({ artistName, albumName, coverUrl }) => (
-        <li class="card">
+        <li class="card" data-artist={artistName.toLowerCase()} data-album={albumName.toLowerCase()}>
           <div class="img-wrap">
             <img
               src={coverUrl}
@@ -50,9 +59,11 @@ const totalArtists = Object.keys(coversData).length;
               decoding="async"
               onerror="this.src='/placeholder.svg'"
             />
+            <div class="info" aria-hidden="true">
+              <p class="artist">{artistName}</p>
+              <p class="album">{albumName}</p>
+            </div>
           </div>
-          <p class="artist" title={artistName}>{artistName}</p>
-          <p class="album" title={albumName}>{albumName}</p>
         </li>
       ))}
     </ul>
@@ -63,7 +74,7 @@ const totalArtists = Object.keys(coversData).length;
   header {
     text-align: center;
     padding-bottom: 2.5rem;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid var(--surface);
     margin-bottom: 2.5rem;
   }
 
@@ -90,8 +101,8 @@ const totalArtists = Object.keys(coversData).length;
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
-    gap: 16px;
     list-style: none;
+    gap: 0.5rem;
   }
 
   .card {
@@ -105,8 +116,13 @@ const totalArtists = Object.keys(coversData).length;
     width: 100%;
     aspect-ratio: 1;
     background: var(--surface);
-    border-radius: 8px;
     overflow: hidden;
+    outline: 3px solid transparent;
+    transition: outline-color 0.2s;
+  }
+
+  .card:hover .img-wrap {
+    outline-color: var(--accent);
   }
 
   .img-wrap img {
@@ -114,26 +130,35 @@ const totalArtists = Object.keys(coversData).length;
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
   }
 
-  .card:hover .img-wrap img {
-    transform: scale(1.04);
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0.6rem;
+    background: linear-gradient(transparent, hsl(from var(--marrone) h s 5% / 0.85));
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .card:hover .info {
+    opacity: 1;
   }
 
   .artist {
     font-size: 0.72rem;
     font-weight: 600;
-    color: var(--text);
+    color: var(--avorio);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-top: 2px;
   }
 
   .album {
-    font-size: 0.68rem;
-    color: var(--muted);
+    font-size: 0.65rem;
+    color: hsl(from var(--avorio) h s l / 0.7);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -179,9 +204,34 @@ const totalArtists = Object.keys(coversData).length;
 
   .arrow { font-size: 0.9em; }
 
+  .search-wrap {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .search-input {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    padding: 3px 8px;
+    width: 140px;
+    transition: border-color 0.2s, color 0.2s, width 0.2s;
+    outline: none;
+  }
+
+  .search-input:focus {
+    border-color: var(--muted);
+    color: var(--text);
+    width: 200px;
+  }
+
   @media (max-width: 600px) {
     .size-btn,
-    .sep-v { display: none; }
+    .sep-v,
+    .search-wrap { display: none; }
   }
 
   .sep-v {
@@ -212,6 +262,21 @@ const totalArtists = Object.keys(coversData).length;
 
   btnAsc.addEventListener('click',  () => setOrder(true));
   btnDesc.addEventListener('click', () => setOrder(false));
+
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const searchBtn   = document.getElementById('search-btn')!;
+  const cards       = document.querySelectorAll<HTMLElement>('.card');
+
+  function doSearch() {
+    const q = searchInput.value.trim().toLowerCase();
+    cards.forEach(card => {
+      const text = (card.dataset.artist ?? '') + ' ' + (card.dataset.album ?? '');
+      card.style.display = !q || text.includes(q) ? '' : 'none';
+    });
+  }
+
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
 
   const sizeBtns = document.querySelectorAll<HTMLButtonElement>('.size-btn');
   sizeBtns.forEach(btn => {
