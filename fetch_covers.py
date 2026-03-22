@@ -1,25 +1,15 @@
 """
-fetch_covers.py — scarica le copertine album via iTunes Search API.
+fetch_covers.py — scarica le copertine album via Deezer API.
 
-iTunes: gratuita, nessuna API key, ~20 req/s sostenibili.
+Deezer: gratuita, nessuna API key, rate limit generoso (~50 req/s).
 
-Strategia: 1 chiamata per BRANO (artista + titolo) → iTunes restituisce
-il metadato del brano incluso nome album e copertina.
-Cache key = "artista|titolo" per ogni brano unico.
-La deduplicazione per album avviene in Astro a build time.
+Strategia: 1 chiamata per ARTISTA → Deezer restituisce tutti i suoi album
+con le copertine in una sola risposta.
+~1.400 chiamate totali, prima run in ~12 minuti a 0.5s/req.
 
-Prima run: ~11.400 brani × 0.14s ≈ 25-30 minuti.
-Run successive: solo i nuovi brani (tipicamente 0-10/ora).
-
+Cache key = nome artista.
 covers.json struttura:
-  {
-    "Genesis|Supper's Ready": {
-      "coverUrl": "https://is1-ssl.mzstatic.com/.../600x600bb.jpg",
-      "albumName": "Foxtrot",
-      "artistName": "Genesis"
-    },
-    ...
-  }
+  { "Genesis": [ {albumName, coverUrl}, ... ], ... }
 """
 
 import json
@@ -31,88 +21,77 @@ from pathlib import Path
 
 PLAYLIST_PATH = Path("playlist.txt")
 CACHE_PATH    = Path("src/data/covers.json")
-ITUNES_URL    = "https://itunes.apple.com/search"
-DELAY         = 0.14   # secondi tra richieste (~7 req/s, abbondantemente sotto il limite)
+DEEZER_URL    = "https://api.deezer.com"
+DELAY         = 0.5    # secondi tra richieste
 
 
-def parse_line(line: str) -> tuple[str, str] | None:
-    """Estrae (artista, titolo) da una riga del file playlist.
-
-    Formati supportati:
-      - "Artista: Titolo"
-      - "Artista / Titolo"
-      - "Artista - Titolo"
-      - "Artista   Titolo"  (3+ spazi)
-    """
+def parse_line(line: str) -> str | None:
+    """Estrae il nome artista da una riga del file playlist."""
     line = line.strip()
     if not line:
         return None
 
     for sep in (": ", " / ", " - "):
         if sep in line:
-            artist, _, title = line.partition(sep)
-            artist = artist.strip()
-            title  = title.strip()
-            if len(artist) >= 2 and len(title) >= 1:
-                return (artist, title)
-            return None
+            artist = line.partition(sep)[0].strip()
+            return artist if len(artist) >= 2 else None
 
     m = re.search(r" {3,}", line)
     if m:
         artist = line[:m.start()].strip()
-        title  = line[m.end():].strip()
-        if len(artist) >= 2 and len(title) >= 1:
-            return (artist, title)
+        return artist if len(artist) >= 2 else None
 
     return None
 
 
-def fetch_track(artist: str, title: str) -> dict:
-    """Cerca un brano su iTunes e restituisce { coverUrl, albumName, artistName }.
+def fetch_albums(artist: str) -> list[dict]:
+    """Cerca tutti gli album di un artista su Deezer.
 
-    Ritorna valori None se non trovato.
+    Flusso:
+      1. Cerca l'artista per nome → prendi il primo risultato
+      2. Recupera i suoi album → filtra quelli con copertina
+    Ritorna lista di {albumName, coverUrl}.
     """
     try:
         r = requests.get(
-            ITUNES_URL,
-            params={
-                "term":    f"{artist} {title}",
-                "media":   "music",
-                "entity":  "song",
-                "limit":   5,
-            },
+            f"{DEEZER_URL}/search/artist",
+            params={"q": artist, "limit": 1},
             timeout=12,
         )
         r.raise_for_status()
-        results = r.json().get("results", [])
+        artists_data = r.json().get("data", [])
+        if not artists_data:
+            return []
 
-        # Cerca il risultato con artista più simile
-        artist_lower = artist.lower()
-        for result in results:
-            if artist_lower in result.get("artistName", "").lower():
-                cover = result.get("artworkUrl100", "")
-                # Scala a 600x600 (iTunes supporta fino a 3000x3000)
-                cover = cover.replace("100x100bb", "600x600bb") if cover else None
-                return {
-                    "coverUrl":   cover or None,
-                    "albumName":  result.get("collectionName") or None,
-                    "artistName": result.get("artistName") or artist,
-                }
+        artist_id = artists_data[0]["id"]
+        time.sleep(0.2)
 
-        # Fallback: primo risultato qualsiasi
-        if results:
-            cover = results[0].get("artworkUrl100", "")
-            cover = cover.replace("100x100bb", "600x600bb") if cover else None
-            return {
-                "coverUrl":   cover or None,
-                "albumName":  results[0].get("collectionName") or None,
-                "artistName": results[0].get("artistName") or artist,
-            }
+        r2 = requests.get(
+            f"{DEEZER_URL}/artist/{artist_id}/albums",
+            params={"limit": 100},
+            timeout=12,
+        )
+        r2.raise_for_status()
+        albums_data = r2.json().get("data", [])
+
+        albums = []
+        seen   = set()
+        for album in albums_data:
+            name      = album.get("title", "").strip()
+            cover_url = album.get("cover_xl") or album.get("cover_big") or album.get("cover", "")
+            if not name or not cover_url or name in seen:
+                continue
+            record_type = album.get("record_type", "")
+            if record_type in ("single", "ep"):
+                continue
+            seen.add(name)
+            albums.append({"albumName": name, "coverUrl": cover_url})
+
+        return albums
 
     except Exception as e:
-        print(f"  Errore fetch '{artist} | {title}': {e}", file=sys.stderr)
-
-    return {"coverUrl": None, "albumName": None, "artistName": artist}
+        print(f"  Errore fetch '{artist}': {e}", file=sys.stderr)
+        return []
 
 
 def main() -> None:
@@ -129,57 +108,53 @@ def main() -> None:
         except json.JSONDecodeError:
             print("AVVISO: covers.json corrotto, parto da zero.", file=sys.stderr)
 
-    # Estrai brani unici dalla playlist
+    # Estrai artisti unici dalla playlist
     lines = PLAYLIST_PATH.read_text(encoding="utf-8", errors="ignore").splitlines()
-    tracks: list[tuple[str, str]] = []
-    seen: set[str] = set()
+    artists: list[str] = []
+    seen_artists: set[str] = set()
     skipped = 0
 
     for line in lines:
-        parsed = parse_line(line)
-        if not parsed:
+        artist = parse_line(line)
+        if not artist:
             skipped += 1
             continue
-        artist, title = parsed
-        key = f"{artist}|{title}"
-        if key not in seen:
-            seen.add(key)
-            tracks.append((artist, title))
+        if artist not in seen_artists:
+            seen_artists.add(artist)
+            artists.append(artist)
 
-    # Solo i brani non ancora in cache (con dati validi o con None esplicito)
-    new_tracks = [(a, t) for (a, t) in tracks if f"{a}|{t}" not in cache]
+    # Salta solo artisti che hanno già album reali in cache
+    # (ri-fetcha artisti con array vuoto [])
+    new_artists = [a for a in artists if a not in cache or not cache[a]]
 
-    print(f"Brani unici: {len(tracks)}  |  Senza artista/titolo: {skipped}")
-    print(f"In cache: {len(cache)}  |  Da fetchare: {len(new_tracks)}")
-    estimated = len(new_tracks) * DELAY / 60
-    print(f"Tempo stimato: ~{estimated:.1f} min")
+    print(f"Artisti unici: {len(artists)}  |  Senza artista: {skipped}")
+    print(f"In cache: {len(cache)}  |  Da fetchare: {len(new_artists)}")
+    print(f"Tempo stimato: ~{len(new_artists) * DELAY * 2 / 60:.1f} min")
 
-    if not new_tracks:
-        print("Nessun nuovo brano. Cache aggiornata.")
+    if not new_artists:
+        print("Nessun nuovo artista. Cache aggiornata.")
         return
 
-    fetched = missed = total = 0
+    fetched = missed = total_albums = 0
 
-    for i, (artist, title) in enumerate(new_tracks, 1):
-        key  = f"{artist}|{title}"
-        data = fetch_track(artist, title)
-        cache[key] = data
-        total += 1
+    for i, artist in enumerate(new_artists, 1):
+        albums = fetch_albums(artist)
+        cache[artist] = albums
 
-        if data["coverUrl"]:
+        if albums:
             fetched += 1
-            print(f"[{i}/{len(new_tracks)}] OK  {artist} — {data['albumName']}")
+            total_albums += len(albums)
+            print(f"[{i}/{len(new_artists)}] OK ({len(albums)} album) {artist}")
         else:
             missed += 1
-            print(f"[{i}/{len(new_tracks)}] --  {artist} | {title}")
+            print(f"[{i}/{len(new_artists)}] -- {artist}")
 
-        # Checkpoint ogni 100 brani
-        if i % 100 == 0:
+        if i % 50 == 0:
             CACHE_PATH.write_text(
                 json.dumps(cache, ensure_ascii=False, indent=2),
                 encoding="utf-8",
             )
-            print(f"  (checkpoint: {len(cache)} brani, {fetched} con cover)")
+            print(f"  (checkpoint: {len(cache)} artisti, {total_albums} album)")
 
         time.sleep(DELAY)
 
@@ -187,7 +162,8 @@ def main() -> None:
         json.dumps(cache, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\nDone — trovati: {fetched}, non trovati: {missed}, totale: {total}")
+    print(f"\nDone -- artisti trovati: {fetched}, non trovati: {missed}")
+    print(f"Album totali in covers.json: {total_albums}")
 
 
 if __name__ == "__main__":

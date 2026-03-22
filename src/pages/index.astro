@@ -2,28 +2,21 @@
 import Layout from '../layouts/Layout.astro';
 import coversRaw from '../data/covers.json';
 
-type TrackInfo = { coverUrl: string | null; albumName: string | null; artistName: string };
-const coversData = coversRaw as Record<string, TrackInfo>;
+type Album = { albumName: string; coverUrl: string };
+const coversData = coversRaw as Record<string, Album[]>;
 
-// Deduplica per album unico (artistName + albumName) a build time
-const albumMap = new Map<string, { artistName: string; albumName: string; coverUrl: string }>();
-for (const info of Object.values(coversData)) {
-  if (!info.coverUrl || !info.albumName) continue;
-  const key = `${info.artistName}|||${info.albumName}`;
-  if (!albumMap.has(key)) {
-    albumMap.set(key, {
-      artistName: info.artistName,
-      albumName:  info.albumName,
-      coverUrl:   info.coverUrl,
-    });
+// Appiattisci tutti gli album di tutti gli artisti
+const albums: Array<{ artistName: string; albumName: string; coverUrl: string }> = [];
+for (const [artistName, artistAlbums] of Object.entries(coversData)) {
+  if (!Array.isArray(artistAlbums)) continue;
+  for (const album of artistAlbums) {
+    albums.push({ artistName, albumName: album.albumName, coverUrl: album.coverUrl });
   }
 }
-
-const albums = [...albumMap.values()]
-  .sort((a, b) => a.artistName.localeCompare(b.artistName, 'it'));
+albums.sort((a, b) => a.artistName.localeCompare(b.artistName, 'it'));
 
 const totalAlbums  = albums.length;
-const totalArtists = new Set(albums.map(a => a.artistName)).size;
+const totalArtists = Object.keys(coversData).length;
 ---
 
 <Layout>
