@@ -21,12 +21,19 @@ const totalArtists = Object.keys(coversData).length;
 
 <Layout>
   <header>
-    <h1>PROGRESSIVE COVERS</h1>
-    <p class="subtitle">
-      <span>{totalAlbums} album</span>
-      <span class="sep">·</span>
-      <span>{totalArtists} artisti</span>
-    </p>
+    <h1>CALEIDOSCOPIO</h1>
+    <p class="tagline">archivio di copertine progressive</p>
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-num">{totalAlbums}</span>
+        <span class="stat-label">album</span>
+      </div>
+      <span class="stat-sep">—</span>
+      <div class="stat">
+        <span class="stat-num">{totalArtists}</span>
+        <span class="stat-label">artisti</span>
+      </div>
+    </div>
     <div class="controls">
       <button id="btn-asc"  class="sort-btn active" aria-pressed="true"  title="A → Z">A <span class="arrow">↑</span></button>
       <button id="btn-desc" class="sort-btn"         aria-pressed="false" title="Z → A">A <span class="arrow">↓</span></button>
@@ -86,17 +93,50 @@ const totalArtists = Object.keys(coversData).length;
     text-wrap: balance;
   }
 
-  .subtitle {
-    margin-top: 0.5rem;
+  .tagline {
+    margin-top: 0.35rem;
     color: var(--muted);
-    font-size: 0.9rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+  }
+
+  .stats {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2rem;
+    margin-top: 1.25rem;
   }
 
-  .sep { opacity: 0.4; }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  .stat-num {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .stat-sep {
+    color: var(--muted);
+    opacity: 0.3;
+    font-size: 1.5rem;
+    align-self: center;
+  }
 
   .grid {
     display: grid;
