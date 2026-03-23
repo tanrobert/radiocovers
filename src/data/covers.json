@@ -17279,26 +17279,6 @@
     "albumName": null,
     "artistName": "Edenya"
   },
-  "Edgar Allan Poe|Ad Un Vecchio": {
-    "coverUrl": null,
-    "albumName": null,
-    "artistName": "Edgar Allan Poe"
-  },
-  "Edgar Allan Poe|Alla Ricerca Di Una Dimensione": {
-    "coverUrl": null,
-    "albumName": null,
-    "artistName": "Edgar Allan Poe"
-  },
-  "Edgar Allan Poe|Generazioni": {
-    "coverUrl": null,
-    "albumName": null,
-    "artistName": "Edgar Allan Poe"
-  },
-  "Edgar Allan Poe|La Ballata Del Cane Infelice": {
-    "coverUrl": null,
-    "albumName": null,
-    "artistName": "Edgar Allan Poe"
-  },
   "Edition Speciale|Aurore": {
     "coverUrl": null,
     "albumName": null,
@@ -40299,26 +40279,86 @@
   "Balanescu Quartet with David Byrne": [],
   "Banco & Franco Battiato": [],
   "Banco del Mutuo Soccorso": [
-    { "albumName": "Storie Invisibili", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73eb617793fdf3c3fcdf9e81bc50648a/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Seguendo Le Tracce", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dc0ef69037e4129dcc468a09a5ef82ee/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Orlando: Le Forme dell'Amore", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/05114eee01995505701ee0ba9411b44c/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Transiberiana (Bonus Tracks Version)", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4b20a722adde5c43dd2c2629f3b43591/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Quaranta", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bb3b845cbc5137dfae8fe2c64ac030c3/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Un'idea che non puoi fermare", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0f55f3c756ce67fa265f36c403548853/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Banco del Mutuo Soccorso", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/737a41500db8462a15da9356ecced7ce/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Banco", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0d37975fd69f9247db8c2661ab397559/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Nudo", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a5bea7e0e5be1655d13a7a38171ba29c/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Il 13", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/15866b0d10f83a1ae8c31e8bb9fe7cb5/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Darwin (1991 Edition)", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/56bdb0e8ff1f79da3a5455e5fc8543fa/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Donna Plautilla", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/320cca7792c9a1427bd25c7381d91cc7/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Canto di primavera", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a062b7c78a9342035b25a1560835354b/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Capolinea", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6b8ba8869eaebed6f676cd98488c19e4/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "...Di terra", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/06a94719a5b1d6daa47475fb92c683d9/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Come in un'ultima cena", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7da7c50741c5ed1ebc4454d3b9ccf3bf/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Io Sono Nato Libero", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f7ce8f6ad640998450bd9fe1990ce3a1/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Darwin!", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5d1cb3f45bfea9a904be4c512035ecf8/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Garofano rosso (Colonna sonora originale del film)", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3b5cb529c4b4cb38f0fc0e528214d158/1000x1000-000000-80-0-0.jpg" },
-    { "albumName": "Greggio e pericoloso (Original Soundtrack)", "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f0949b33ef399fdc62f113bd06a67435/1000x1000-000000-80-0-0.jpg" }
+    {
+      "albumName": "Storie Invisibili",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73eb617793fdf3c3fcdf9e81bc50648a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Seguendo Le Tracce",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dc0ef69037e4129dcc468a09a5ef82ee/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Orlando: Le Forme dell'Amore",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/05114eee01995505701ee0ba9411b44c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Transiberiana (Bonus Tracks Version)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4b20a722adde5c43dd2c2629f3b43591/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Quaranta",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bb3b845cbc5137dfae8fe2c64ac030c3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Un'idea che non puoi fermare",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0f55f3c756ce67fa265f36c403548853/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Banco del Mutuo Soccorso",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/737a41500db8462a15da9356ecced7ce/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Banco",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0d37975fd69f9247db8c2661ab397559/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Nudo",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a5bea7e0e5be1655d13a7a38171ba29c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Il 13",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/15866b0d10f83a1ae8c31e8bb9fe7cb5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Darwin (1991 Edition)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/56bdb0e8ff1f79da3a5455e5fc8543fa/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Donna Plautilla",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/320cca7792c9a1427bd25c7381d91cc7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Canto di primavera",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a062b7c78a9342035b25a1560835354b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Capolinea",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6b8ba8869eaebed6f676cd98488c19e4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "...Di terra",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/06a94719a5b1d6daa47475fb92c683d9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Come in un'ultima cena",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7da7c50741c5ed1ebc4454d3b9ccf3bf/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Io Sono Nato Libero",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f7ce8f6ad640998450bd9fe1990ce3a1/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Darwin!",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5d1cb3f45bfea9a904be4c512035ecf8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Garofano rosso (Colonna sonora originale del film)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3b5cb529c4b4cb38f0fc0e528214d158/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Greggio e pericoloso (Original Soundtrack)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f0949b33ef399fdc62f113bd06a67435/1000x1000-000000-80-0-0.jpg"
+    }
   ],
   "Banco": [
     {
@@ -49230,408 +49270,6 @@
     {
       "albumName": "Silence",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5cec5259e8494a7c11f254e583f53bb6/1000x1000-000000-80-0-0.jpg"
-    }
-  ],
-  "Edgar Allan Poe": [
-    {
-      "albumName": "The Works of Edgar Allan Poe (Volume 5)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5b9b8c230c8f1a325e898da0bf685e16/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Works of Edgar Allan Poe (Volume 4)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3574069bff3790fe69e86415669ea173/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Works of Edgar Allan Poe (Volume 3)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5b895e8bc04b3c8fa6c8eed737da662d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Works of Edgar Allan Poe (Volume 2)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b8fe8e1686f6d7e97a15d17e8e723d5f/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Works of Edgar Allan Poe (Volume 1)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/117baac6c487d6929f1f05e5bf738327/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Bibliothek",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/cbe0311aff08da2dde81061703b2b9e2/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Sämtliche Seltsame Geschichten 2 (William Wilson, Der gestohlene Brief, Der Untergang des Hauses Usher, Bericht über den Fall Valdema",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6c0f5c0d57f8a7eae7a7de98eeabe1b2/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Poems",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3d1025e61da0d3708b192f3840dbb46c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Das Geheimnis der Marie Rogêt (C. Auguste Dupin ermittelt)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/25ffb475922071a17debb6d3c160d5a1/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Poems of Youth",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5659c6041d42d0840012d9a560c28bbe/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Poems of Manhood",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a50fcc866cec04b8d536ad2aef3c6df2/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Poems of Later Life",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/30545b72b08be05480dc3dfcc2dd19e8/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Der Doppelmord in der Rue Morgue (C. Auguste Dupin ermittelt)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7d0f47b8dbcc3c762e3b5d654b2cf566/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Histoires extraordinaires d'Edgar Allan Poe - Livre Audio",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2390d12e585b90e47fc58e88a58d4263/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Death of Poe",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4bdfe31a869c9b3f460836964d50f910/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Life of Poe",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8f34a27d26b06d330ccac483d89cb805/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Sämtliche Seltsame Geschichten 1 (Eine Geschichte aus dem Felsengebirge, Der schwarze Kater, Die Maske des roten Todes, Ligeia, Die R",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/186467461bb0ee57b15cc8659282e468/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "A Descent into the Maelstrom",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/889675161b114ca510c7143b20f48800/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Von Kempelen and His Discovery",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/87d7366a168de8d898d9d99f714317bc/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Mesmeric Revelation",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/89b005c8c377d08639c230f7e3f7ae06/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Facts in the Case of M. Valdemar",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/734e1d95dec2eca4b862354ec1e457aa/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Black Cat",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e11c66e47804e52cc28ca32545d0612c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Fall of the House of Usher",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/aa362884785f802fd05b62836f3fee72/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Masque of the Red Death",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/48c439fd7827fabde9e10ad85ebbb8c9/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Cask of Amontillado",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0c02bd3659d99979e9aa886de192d5b4/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Purloined Letter",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9cb95bbfef5eee0a92c5d317266bce1e/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Thousand-And-Second Tale of Scheherazade",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c49fc2c95aeb2871fd8222e88b68b09d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Narrative of A. Gordon Pym",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5a2694583f36514f26a7c94f280f3f25/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Poetic Principle",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0ab8885418aca1b53d20f3722f602eca/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Hop-Frog",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bf05e425fa8479bb792cdf2a0ede60ae/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Man of the Crowd",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0dfd50c8e24f735363c29ebf64779459/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Never Bet the Devil Your Head",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/109cdabb89bd5e50c13d65ba26009bee/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Thou Art the Man",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fc1590697e2a3f1c7b38c21c6120fbf2/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Bon-Bon",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/13a45251f43d8f8bcaac1ece346d5b35/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Some Words with a Mummy",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/13a3db30aefdf577d8fb633185895625/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Conversation of Eiros and Charmion",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8cc84ee699f289a1dfe6b6b7be9b6f4b/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Philosophy of Furniture",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/77d1291dd209bbc6c87320aa25824691/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Sphinx",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/743ea5f1b114731c8039ebf957851737/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Colloquy of Monos and Una",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1add3dd373302b1a961ebd969221fee8/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Man That Was Used Up",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3893ac15440e8fc29dee1156ec567212/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Business Man",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b316dc881cd62faa7049fb3e7bd883f3/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Landscape Garden",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3ad0a8655ae7b943357457cba00767f1/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Maelzel's Chess-Player",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9a733a3719d359985aac3e0ed57005a1/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The System of Doctor Tarr and Professor Fether",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4240a71e4f8d23f395bb418b6e74e59f/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Literary Life of Thingum Bob, Esq.",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/502750936678731ed48bc448f6cf4306/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "How to Write a Blackwood Article",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bc6213057846c572b9853d15234dcf82/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "A Predicament",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7468a1503a907bf5853e7177f6a1578e/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Mystification",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8ae15cc376c4db321744bf62d20fed8d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Diddling",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c34ae7d944e27de4184edcb67f5725c6/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Angel of the Odd",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/19b52d1fafa6ab51304807e5c10e0435/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Mellonta Tauta",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3eab0ab227467852e06b2949872af3b5/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Oblong Box",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6bf84097e75ff3e1cda0a283deab3110/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Loss of Breath",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73410a2b9d7309062190f778b8c27459/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "X-Ing a Paragrab",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9a353312e20db2089f33377f4339ab00/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Metzengerstein",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d50023b38065f2a8fca3b4edf2bdcf71/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Devil in the Belfry",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3d8e4bfcca7b0030a86c6b366391997a/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Letter to Mr. B--.",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/432d5106b1fd969ab62ff273c045a397/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Al Aaraaf",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/27f19ce3dcd55eb993a596dc9457ee43/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Scenes from \"Politian\" (An Unpublished Drama)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f48dee54dafdb3e91d1f6031c1272b94/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Mystery of Marie Roget",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2be3dfdbb916129771d5d6ba2b40dfc5/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Unparalleled Adventures of One Hans Pfaall",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a1d80311927ad5a7cebd8b3b6a83485d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Gold-Bug",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/406fd25c301d7978b62ab27eb1ab2857/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Four Beasts in One - The Homo-Cameleopard",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/cce315a653cd4c4010a6127a76f8b6b4/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Murders in the Rue Morgue",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4a85d44d96500494e753ea25d7f1830c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "The Essential Edgar Allan Poe Collection (11 Essential Stories)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f99086571a7397cb32e8d9544a8f7295/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Die besten Geschichten von Edgar Allan Poe – 30 Meisterwerke des Grauens, der Fantasie und des Wahnsinns (Die große Hörbuch Box)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4b0e702c016c6a52ebd9450ca39a607f/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Alle porte dell'incubo",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/42322099a9b7bfa79f806f9e63080d4a/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 86-90",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d9d06a3ff93aebd69039a0b3b0e41a50/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Greatest Tales of Edgar Allan Poe - Audiobook",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4c4a3f3c2388c09a98eeea72990b24f5/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "O gato preto e outros contos",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9251934ce9d4c4ac05a90617c77b76f8/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Alison Larkin Presents The Tell-Tale Heart and Other Stories (unabridged)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6f754c0cb90095ef8d43394ab34440ba/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 56-60",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c2a3bb623015ae8c77a877cc2237104c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Die Meister der klassischen Kriminalliteratur (Mord, Mysterium und Meisterdetektive: Spannende Klassiker von Poe, Doyle, Chesterton & Co.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4b6e6cecf19fa4fd23c54298bb00993d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 51-55",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fc4ca321b88c289bbb005225ce1f9b8d/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 46-50",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e7416eec889cdec9a565f4aad7fbf0bb/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Schauer, Spannung und Schwarze Romantik: 10 Novellen und Kurzgeschichten (Klassiker der Weltliteratur)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e6b2aaa901231da8ba74b875c70078e5/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 6 (Metzengerstein, In der Tiefe des Maelstroms.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b460113afebb102e38f2ce9b47852fc4/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "A Descent into the Maelström (Unabridged)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f484cb971ce99956aa0cec7c7a0796ef/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 36-40",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/697b39628feb273d5c87fe5c24c24b2c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 5 (Der Untergang des Hauses Usher, Bericht über den Fall Valdemar.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d0437e5ac92623f71e224ddbdc71a5d6/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 4 (William Wilson, Der gestohlene Brief.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/039d716e16299df9ce075f37be0fea81/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Die Mordtat in der Rue Morgue",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/84241fab1966bf5561cf4ca32b2d75fc/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 21-25",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dea5a6de7905816aa8f3568c16417786/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 3 (Die Rache des Zwerges, Der alte Mann mit dem Geierauge, Das Fass Amontillladowein.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a3f16f7d581f25b3c8a3a960437e0417/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Inszenierte Lesung - Folge 1: Grausame Städte",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8f52d724779feda22c77e9f6eafe898c/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 2 (Die Maske des roten Todes, Ligeia.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/137220c0b642b50eb7c4855ac0a2fa05/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Science Fiction Klassiker: Die große Hörbuch Box (Frühe Meisterwerke der fantastischen Literatur)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3d8e34c66bd92e91e7cb1947fd92653f/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Der Goldkäfer",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6ee6b424a2b9dbd8f07be638a8e87384/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 6-10",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c9d624eec24de070b28a38c873baa81f/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "75+ Horror Anthologies (The Black Cat, The Raven, Dracula, Frankenstein, Carmilla, The Call of Cthulhu, At the Mountains of",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/44e5b366ddbf45f1a82c06305f73f2ae/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Folge 6: Grausame Städte 2",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/19c5478c5c843be3630b97fbb58acb42/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "10 Masterpieces You Have to Read Before You Die, Vol. 3 (The Pit and the Pendulum by Edgar Allan Poe, The Dream of a Ridiculous Man by Fyodor Dostoevsky, At",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d5140b53e6bc1d2119c44e03a14c76d8/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Seltsame Geschichten 1 (Eine Geschichte aus dem Felsengebirge, Der schwarze Kater.)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/db6eee6dfc54805a177f2c9c40b3d0d1/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Lyrikalische Lesung Episoden 1-5",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5b473bd01ebf38c115a2b802005bdecf/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Folge 5: Haschisch",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/691f6668d6cebbeb6711203fd36385f3/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "10 Masterpieces You Have to Read Before You Die, Vol. 2 (The Gold-Bug, Romeo and Juliet, Faust, The Adventures of Tom Sawyer, The Death of Ivan Ilyich, The",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4381fad91d1804037fdc3b716b6907f0/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Folge 4: Die weissen Hände",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d70cea7d91add807357dfc8c41efe889/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Folge 3: Cosmogenesis",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7af79a728ee6a8dba5b5cf2c4b724c77/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Masterpieces of American Literature. Twelve Great Novels and Stories (A Farewell to Arms, The Great Gatsby, Anthem, The Call of the Wild, The Call of Cthulhu and others)",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/af1e4f00fd1de73d3cdd76bade6344a6/1000x1000-000000-80-0-0.jpg"
-    },
-    {
-      "albumName": "Edgar Allan Poe's Phantastische Bibliothek - Folge 2: Spuk des Alltags",
-      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/764dff3485eb934c86c2fce068ad59cc/1000x1000-000000-80-0-0.jpg"
     }
   ],
   "Edition Speciale": [
