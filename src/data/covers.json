@@ -38914,7 +38914,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2b65fb93d8a0deadf7a7b7879a0b52fc/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Archaia": [],
+  "Archaia": [
+    {
+      "albumName": "So Red The Rose",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/12c219785dbf3526868ac0067834f58a/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Architectual Metaphor": [
     {
       "albumName": "The Julia Set",
@@ -82439,5 +82444,7 @@
       "albumName": "Many Rivers",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f92bb5d49a3bcd41cb33383bdf314333/1000x1000-000000-80-0-0.jpg"
     }
-  ]
+  ],
+  "Jethro Tull / Childhood Heroes Reprise (from": [],
+  "Jethro Tull / Stabs Instrumental (from": []
 }
