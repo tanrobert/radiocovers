@@ -38903,7 +38903,20 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/55750f3497b590d69368e19220da208f/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Aragon": [],
+  "Aragon": [
+    {
+      "albumName": "Aragon",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/de4fdbe7a41ab2c765efa2bdb2ebd6b3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Summer Camp Songs",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/319b268c4de6f4296d607a8e7aba81e4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Aragon Project",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ed9cba8d80501cd4e3030c2d36a4a66d/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Arcansiel": [
     {
       "albumName": "Hard Times",
@@ -42844,7 +42857,52 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/923a465dad7bc776b56c8bf2515b440c/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Cage": [],
+  "Cage": [
+    {
+      "albumName": "Tales of Water",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dda5957e5150bbfbfdd00d67f97edc58/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "lost in the hidden wrld",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/919cb36e8eef8aa20346d377147c58ff/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "LUTSK STATION",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/431c61f62fbffdb923e3a6ddf87c8782/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Star System",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/cec86d998fb4e5a01f6433fd45babf6a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Packs On Ice",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8f2c92bc25c33db5b1b9527f8b9bea08/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Death Miracles",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/76b86df1f0986e60b4701e92a0c052a2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Infernal Depths",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3c13b484c17124148dea65848d0c3b3a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Kill The Architect",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8fd9b1210e5a3719181908582c6df9ed/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Depart from Me",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b695e77f743fd3afc257d181db00951c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Hell's Winter",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f463bfa89aa9394ea9895582cb3c1222/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Movies For The Blind",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0eac3c1cebb0fa84df8c555e7cdb510a/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Califfi": [
     {
       "albumName": "Cliff with Strings - My Kinda Life",
@@ -62083,8 +62141,18 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3baef1cbff5b6089004ca32a14389706/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Life Line Provect": [],
-  "Life Line Prpject": [],
+  "Life Line Provect": [
+    {
+      "albumName": "Digital Life",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/92d0e46fa310062c37468abf8a1444d1/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Life Line Prpject": [
+    {
+      "albumName": "Digital Life",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/92d0e46fa310062c37468abf8a1444d1/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Lift": [],
   "Limite Acque Sicure": [
     {
@@ -65572,7 +65640,16 @@
     }
   ],
   "Mirage (Italy)": [],
-  "Mirthrandir": [],
+  "Mirthrandir": [
+    {
+      "albumName": "Songs for Untold Stories",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f8427f5a28bfb63619fe85bfda9ec85f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ruby Moon",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/59607a271171ab8ad65339404911ee03/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Mister Robot": [],
   "Mobius Project": [
     {
@@ -72790,7 +72867,20 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/45443734d0de7e2f8ee2933992a14899/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Sadja": [],
+  "Sadja": [
+    {
+      "albumName": "Golden Finale",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f5f1cdaa0a24a9c8c1b8528a6b7a4abf/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e54bda0628749119f7a9a05b71b40283/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "KPop Demon Hunters (Soundtrack from the Netflix Film / Deluxe Version)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/434f1fffb44056916ce763de4ce3c10a/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Sahara (Germany)": [],
   "Saint Just": [
     {
@@ -72820,7 +72910,44 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/23bad138b349145971831254d14fe0f6/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Samadhi": [],
+  "Samadhi": [
+    {
+      "albumName": "Crystal Sound Healing Energetic Balance",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/68f1e8f315f028aaffb31d46e76b5762/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Nervous System Reset Crystal Singing Bowl Sound Bath",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/68f1e8f315f028aaffb31d46e76b5762/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "NADIS",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5555b56a3bb7b5fbe028d4850ee29342/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Divine connexion",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0dad1abe0154c635be10745429cdd67c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Live at The SPOT",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/733f266aec6bb7520aa77d432a2a560e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Seltsam Tape",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6b6960b5d90aecf44b154549509b8fdc/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Pure Light",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7f9b7f09476ab466d199bb64202d347e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Incandescence",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d85093493ddf81e48879b9a0e18d1040/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Samadhi",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c4b3293b0fc7c9a1e72d3e26c83324fa/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Samurai": [],
   "Sangiuliano": [
     {
@@ -82446,5 +82573,7 @@
     }
   ],
   "Jethro Tull / Childhood Heroes Reprise (from": [],
-  "Jethro Tull / Stabs Instrumental (from": []
+  "Jethro Tull / Stabs Instrumental (from": [],
+  "Mark Charig & Keith Tippett": [],
+  "Mark Charig, Gilberto Franco, Alexson Massagao & William Ferreira": []
 }
