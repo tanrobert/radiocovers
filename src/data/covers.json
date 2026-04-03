@@ -80504,7 +80504,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/92128ff13d54b2222a97cb23500e1c95/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Virtual Dream": [],
+  "Virtual Dream": [
+    {
+      "albumName": "Winter Structures",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/edb52bb79a895f9631b1bdb46cfb823c/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Visage": [
     {
       "albumName": "Live 2013",
@@ -82205,7 +82210,28 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8efc35563b3f20dda24115b60dfadc31/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Zeph": [],
+  "Zeph": [
+    {
+      "albumName": "character development",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/302bc6407b4b9b846c79613c8ab285f0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Initiation",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/47fa013b468bc8541d7910aa4d37f4b8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The NeverEnding Story",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8c73bc38da38ff1ae3bee9118442be82/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Come One Come All",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c720d1a595e76755722b71ddbb33af0c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Rise Up",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9389bd9f84c544502e88a73a7816a260/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Zero 7": [
     {
       "albumName": "In The Half Light (Instrumental)",
@@ -83015,5 +83041,6 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/52e11b31573d434f9c8d12f73db4b329/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Algebra / Storia di un Icegerg": []
+  "Algebra / Storia di un Icegerg": [],
+  "Architrave Indipendente": []
 }
