@@ -62119,7 +62119,24 @@
     }
   ],
   "Le Orme / Cemento Armato (guitar": [],
-  "Le Sensazioni": [],
+  "Le Sensazioni": [
+    {
+      "albumName": "Time To Jam! [The Remix Album]",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5d41bba5eeadc4eea7e5b1941e40fd84/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Love Child",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5c2e7087f9212050cb6224dbcd05cf77/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Take It While It's Hot",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5ed7f3afd25b5e5cfd73ee819641c466/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Sweet Sensation (Expanded Edition)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d0f10704182371707fab1ce8a59afc53/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Led Zeppelin": [
     {
       "albumName": "Live EP",
