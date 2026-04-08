@@ -68009,7 +68009,408 @@
     }
   ],
   "Nova Cascade": [],
-  "Nova": [],
+  "Nova": [
+    {
+      "albumName": "Nova New",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7ce50962b879ea59468fff112f508551/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Velvet After Midnight",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a8a101407a263f8277df2ec10244443b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Midnight Pressure",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2bb28d7f91a430727a3e6e5ad8de1586/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Midnight Voltage",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0972032937e4bb509f04585a421e82ce/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Slow Nights & Neon Lights",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8a8982b5371abbe69a9c5c7fa433bf77/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Whats Survive",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4e59fb3222d5ee25df21d1fda70e0455/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Endless poison",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/aa8d1a8be39442276429fcf11c60fb05/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ayna",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7eb3868c79013c7382665bd82d806fc7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Where The Light Stays",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/01f9ea486325c0394b5941166023e8c3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "You Shine Tonight",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/806410c244dddd6d107e1bdfa817aac8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Novawave",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e821529217d607185e77ce0338a7d45f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Salt In The Horizon",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c39df1b06512dbe290cd4412cf49241c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Cozy Chimney",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7208dba38b0eec3cd224a61f453b3ac2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Cloudy Lamp Glow",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3a32eb3209e57d1bfd881b406ef14727/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Stay a Little Longer",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5adff9fd52e8501eefe882e795163967/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Super Speed",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d9b5fb17eed9560c5adbfbd66a89383f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Nova Gallery",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/382cd6e9d9d1ced31ed1c6f85e0cfa23/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Eternal Flame",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c3fa3d9bb0c290fcbc787cc00c8013c1/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Frostlight Melodies",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/044879325b2972c6249423d7634ef371/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "site togo",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/23b6a710773ab254a6672138535c68b8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Christmas Festival Lights",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/43943d9cfdbd740ceba666b0fb5806db/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Low Frequency Hours",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/94387749e9e8aeeab55efb9065db5ba5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Quiet Coffee Lane",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f6b3da1ded9d8edf27f519b65f0cdf7c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Blooming in the Dark",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/14226b780640bd5af093e8779c9dd364/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Echos of Tomorrow",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b7903426ddc956d038b42353c2997522/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Northstar",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0d4da9361080b2518acd817282ec0119/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Rebirth",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7af5026f937ed2e7ccc53387419acb6f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "R & B (\"Real and Beautiful\")",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/afb1da3cc7670b38b32e9ca0762e4f6d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Deep Sleep",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/577d166104edccf24a438732e5124005/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "AFTERGLOW",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/063f69067bf65dd2a5339281e8ce25e0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "MISSION ETERNAL",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e2261435f4973fd01ce0211da9c34343/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "MelTech",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5ed73b028a07a1298e9d9dfbcc0374c5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Dust & Dreams",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bbaf6f22640a4f821857a753479f867d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Marcos Again",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7aeb4cf18be295bcac99501f1ee1c505/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Lunar Flow",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/481f5ef5aab463f2426eb747630f9ed2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Passed You in a Playlist",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bf3a9d585aac705b91b0dfe6fda636ff/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Everlight",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5a03837006ee9700a2561991019f3922/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Neon Breeze",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3d643156348ec4c5f38a9d3a613c1057/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Kryptonite ES",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9ebd64d48cabcd5f21c9079e20cfa199/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Desert Never Sleeps",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/50f3689dd82602fab194370ae710692d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Kryptonite EN",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/504f34d1ef1d6780d6d5e26e79701ac4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Brewed Moments",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f3c9b1fd310c898851e306c33e5a409e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Kryptonite FR",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8222035f160d052702c57ad581a577f7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "SHOCK SITES",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/93267bb255d22f2ed09b006cf41611bd/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "No Rush",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5a1d77275031488cb6bd87605ac24bf8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "She Still Stands",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2a146dcac218647c727ebeb6b10ed993/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Fading Echoes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8ad6b5929e8580c4b7a5eb99f5ba5ae3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Corrupted Beasts",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d2467817df8ad4732b8ac89e7c3d16b4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "metamorphosis",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2b71a6a5e8b019e87344d12b638c7e47/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Synapse",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1fd6d644f734b2e102ad615c7ab34f96/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Skyrim & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bf5acc3fca52e4fbfa4f10f8c6416e34/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Zelda & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a93b7aae476cdf51a2d4d44156cca46b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Digital Afterglow",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3164248070d3dbf877d8cd13151b401e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Some Songs Just Stay",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/683b6aa2b3f2ba209c4dc66354a658db/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Echoes of a Phantom Heart",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ed07189dcb1a921c9afcbc10eb27cad1/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Sonic & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/90e989df069918b6a18f3b53ae702a87/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "cheer up plus",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/26551ac1077a1587bb831d8b9c803a78/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "FALLING UP",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/872e29a4c14062dcdb70a6deefe09637/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Dragon Ball & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/71b77ea0bffd8eb41c9b50ad8dad5f0f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Borders of the Heart",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/cdca6cf0b2085a01b28cd745c70a27f2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Minecraft & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/29e4201dbbf10e11279f0bb506b6393b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Slimetown",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/81df2af819a12a93e33e0857cd46d051/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Mario & Sleep Vibes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/23e307b57e63a3f59bc51cce7265d0a7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ballroom / Psyche & Eros",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1f1b9c14476b039960e40084cce6c0f5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Enough",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/545dfcab0b6a15b09afe1f7067993d13/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "/mono/ (Demo)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/807b4798c958ac1d302d30e24f3c9254/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Karma",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ac3e1d71197cab696cb7fff3ac4998e6/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Nova Girl",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/67c0082afbc2f6dda3a38fd106ddbdf3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "X",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fbe394d3eeff20cb164b852b89c093b1/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Dark Was The Night",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d029c46fbc13644d55beb6dc64105a69/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Karanlık Rıhtım",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6ef1502009fc32e2e92b2dfbdf473f1b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Super NOVA",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/71b70b01de4fb114b3252807c3b57e14/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Newsound",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dce64722f172016c16a783954040933c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "novanohakobune",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c486797fe7c7fcfc2022007ebff547df/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "NEW ERA",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/71cb08ec7c9667cedc2523c2d49f1bf0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "FOR YOUR ENTERTAINMENT",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0bad2bc9ffe7f637d1343b7fc3f97365/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Machine Time",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/de1fcdfc95d9eab378157f2525ddd047/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "RETURN",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/064cc1098166d4099ff6f0399e207d6a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Solsticio para el Rey y la Reina",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ba7edcccf4508227b80820bc51bfd83b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Eclipse Theory",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f9f067a6e11a184ec61685d90505de39/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Mysterious Ties",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f0f39eb16365a4d7e58aad706d17e6d5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Untitled",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8f2bfb0a47b5f1af63ce206a79b85a3c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Flying Through the Ages",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/83cb689f2875a541c1728e68d95a2b5d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Revenge",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a31e014f2176a7fe7cdf169f27db0ce6/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "NovApocalypse",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/89bacc372bfd8ee4c9557e0f58ed4b22/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Double Edged Sword (Slowed + Reverb)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/193a9073cf1d9abdf50a446da6904f4b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Double Edged Sword",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/98bbe1f5b93944e9a03e0575fc9b6d2c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Double Edged Sword (Speed Up)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6b8d5f84d7e5457361922fcfc2b851cb/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Countdown (Live)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7ce5c5a6d19cca58ac3fa6bf9d2ed8e4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Re-Engineered, Vol. 3",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/423cf2dfd500ab257ff29abba93c4939/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Events of February 23rd 1994",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/31ef19c4ebe51a3b9b120bfa39f9a5f5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Draft Night",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ff3e207b917eb71af813d8db33973432/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "4Eternity",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e6cc853cd41270d868a077232c07e304/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Metropolis",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/694be038fc0bbb9b21d7a28ec31a096c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Persistence of Mystery",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2901121b316bbb1e3480ce5273cce8e5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "SINTAXIS",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b7ff2f3b625e8f5c047e79bfcba1367b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Funhouse",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/de62a0477b4c5b01eab6fc3575d6f2b0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Naik Kelas",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73a6c7c38086450049860fc932aeb0c0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ahoban",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c474f0f9c0ee12925625740e020d04f8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Rajakarer Talika Chai",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c96a3ac52083c008f83709271a93d4a0/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Novalis": [
     {
       "albumName": "Birth of a Star (Book I)",
