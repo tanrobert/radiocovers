@@ -62463,7 +62463,16 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/92d0e46fa310062c37468abf8a1444d1/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Lift": [],
+  "Lift": [
+    {
+      "albumName": "It's The Holidays",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/605d9b09a35a28d70e1b0f348da49230/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Madness",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8179801962d98d3abd97367c1dd1e4b2/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Limite Acque Sicure": [
     {
       "albumName": "Un'Altra Mano Di Carte",
@@ -83565,5 +83574,6 @@
     }
   ],
   "Algebra / Storia di un Icegerg": [],
-  "Architrave Indipendente": []
+  "Architrave Indipendente": [],
+  "Roll & Toast Records": []
 }
