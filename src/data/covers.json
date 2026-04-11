@@ -61645,7 +61645,12 @@
   ],
   "Labirinto di Specchi": [],
   "Laboratorio Musicale Del Graal": [],
-  "Lady Atimer": [],
+  "Lady Atimer": [
+    {
+      "albumName": "The Other Side of You",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/273e1d5739ced128de61751d1571760b/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Lady Lake": [
     {
       "albumName": "Not Far from Llyn Llydaw",
@@ -62505,7 +62510,20 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a59ead1bad06ea4cc682ac935962d3cd/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Living Life": [],
+  "Living Life": [
+    {
+      "albumName": "Dandelion",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b1bde069e57968a190b0506aef2b6e3e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "hungover",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f6bf9fc50811c5fab0038f46e0ded273/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "still hungover",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e051b83509248c78c4de582313fbeb7c/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Living Music": [
     {
       "albumName": "Living Music",
