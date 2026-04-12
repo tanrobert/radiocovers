@@ -68774,7 +68774,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/411683b83427f24328baea8882a331c2/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Opera Oscura": [],
+  "Opera Oscura": [
+    {
+      "albumName": "Disincanto",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2782616b769810350e8dd2619d7ebf70/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Opeth": [
     {
       "albumName": "The Last Will And Testament",
@@ -83593,5 +83598,6 @@
   ],
   "Algebra / Storia di un Icegerg": [],
   "Architrave Indipendente": [],
-  "Roll & Toast Records": []
+  "Roll & Toast Records": [],
+  "Nel Giardino dei Melograni": []
 }
