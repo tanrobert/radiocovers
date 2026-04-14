@@ -83604,5 +83604,16 @@
   "Algebra / Storia di un Icegerg": [],
   "Architrave Indipendente": [],
   "Roll & Toast Records": [],
-  "Nel Giardino dei Melograni": []
+  "Nel Giardino dei Melograni": [],
+  "Baco Di Silenzio": [
+    {
+      "albumName": "La Caratura delle Penisole",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c1e9edb2b576cecf9acf20e4b595cdcf/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Aquile e Cieli",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/540fef6cf19ba200fc036ca42fa099b9/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Six Elements": []
 }
