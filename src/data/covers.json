@@ -40287,7 +40287,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2d9b552faf604ec89775a05616f9358d/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Avant Garden": [],
+  "Avant Garden": [
+    {
+      "albumName": "Desolate Lands",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/639eb7667176f60d5cfd5e71b7b8b909/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Aviolinee Utopia": [],
   "Axcraft": [
     {
@@ -83929,6 +83934,36 @@
     {
       "albumName": "Bigger Picture",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/043c6891d6524c33bfa9c27d8a41f00a/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Franck Carducci": [
+    {
+      "albumName": "Sheeple",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a2b236966fa609b29e1c4ca44afbff2d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Answer (Live)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3bb503e7febe9f5ae96f48bf5c278fcb/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Naked",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4275b5cd6fb88b0d5bb99083b016b54f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Answer",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/25bc2fadb175c4842e7514d8caa2ec37/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Tearing the Tour Apart",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fe515f49856466b43dcfd8018f5854da/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Torn Apart",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b6daefe7bd53ab36bdf0e4e92855d4e9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Oddity",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0e2af6465a1d42b4d46a97ec1d6fd01b/1000x1000-000000-80-0-0.jpg"
     }
   ]
 }
