@@ -74288,7 +74288,16 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3fe60b3e7a7e25ac9877efb3bbe70c31/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Sinkadus": [],
+  "Sinkadus": [
+    {
+      "albumName": "Modus Vivendi",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9ad6ae9f52b92f9c05d2c04db5644f3d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Akrasia",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/26f5632c773ea5607f2c1e1ada7facf0/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Sintesi del Viaggio di Es": [
     {
       "albumName": "Gli Alberi di Stavropol",
@@ -83965,5 +83974,6 @@
       "albumName": "Oddity",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0e2af6465a1d42b4d46a97ec1d6fd01b/1000x1000-000000-80-0-0.jpg"
     }
-  ]
+  ],
+  "Ibis (Sweden)": []
 }
