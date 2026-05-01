@@ -79189,7 +79189,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5fc7ed8ec3141bc87e2eeef629942349/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Tonton Macoute": [],
+  "Tonton Macoute": [
+    {
+      "albumName": "Iraridades, Vol. 1",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7784b1f2276172300782bb13058193fa/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Tortilla Flat": [
     {
       "albumName": "New Stuff in an Old Barrel",
@@ -83976,5 +83981,6 @@
     }
   ],
   "Ibis (Sweden)": [],
-  "Brian Eno & Cluster": []
+  "Brian Eno & Cluster": [],
+  "Casiopea (Japan)": []
 }
