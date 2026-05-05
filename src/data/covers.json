@@ -83984,5 +83984,23 @@
   "Brian Eno & Cluster": [],
   "Casiopea (Japan)": [],
   "Asturias (Japan)": [],
-  "Ain Soph (Japan)": []
+  "Ain Soph (Japan)": [],
+  "Juri Camisasca": [
+    {
+      "albumName": "Oniric Chopin (Prosimelometro N.1)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5148f0a12e41797d1c5921417f417348/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "CRISTOGENESI",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a3e72e315572b3a2c6f32bbfa73ff9b5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Laudes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9a50b7424a83bed24c0ccb22b797152f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Spirituality",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8e72baf7b598a94377f1bd3d7f6ef83b/1000x1000-000000-80-0-0.jpg"
+    }
+  ]
 }
