@@ -43439,7 +43439,12 @@
     }
   ],
   "Camera Astralis": [],
-  "Camera Chiara": [],
+  "Camera Chiara": [
+    {
+      "albumName": "Was I(t) Worth It?",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a482ad2168bdbd857776df90e9c41875/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Campo Di Marte": [
     {
       "albumName": "Campo Di Marte",
@@ -84067,6 +84072,16 @@
     {
       "albumName": "Live In London 1977",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ef665ff62415e325a0ece21232c17b9b/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "J. S. Bach": [
+    {
+      "albumName": "Hymns of the Spirit in B (vol. 2)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6ab1264cf2f72a6ae841627be646b690/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "J.S. Bach, BWV 1004 & 1005",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/baa7f98aaf9b4f1cdc97b07c89d8dc50/1000x1000-000000-80-0-0.jpg"
     }
   ]
 }
