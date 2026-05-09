@@ -84083,5 +84083,20 @@
       "albumName": "J.S. Bach, BWV 1004 & 1005",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/baa7f98aaf9b4f1cdc97b07c89d8dc50/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Colosseum / The Valentine Suite": [],
+  "Periplo": [
+    {
+      "albumName": "New York City",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/43afe09d0fac05a715a3dad9b516e5dc/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Invisible Cabeza",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/abe06b9e40a3d40665d93dacc386d8c1/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Tintas Raras",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f19302ea8737e48cabf45b29fc34ee90/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
