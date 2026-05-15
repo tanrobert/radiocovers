@@ -64841,7 +64841,16 @@
     }
   ],
   "Master Cylinder": [],
-  "Matching Mole": [],
+  "Matching Mole": [
+    {
+      "albumName": "Matching Mole",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/48b5861df14114f8aafad83cbe74d03b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Little Red Record",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a9c600d7fa8a7ebe4086dd8854dfa496/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Maurice Ravel": [
     {
       "albumName": "\"'Classical Inventions: Bach, Mozart, Beethoven & more\"",
@@ -84177,5 +84186,83 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9881448b2b69109020c3dca6275cc47f/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "J. S. Bach / Aria sulla Quarta Corda (Sigla": []
+  "J. S. Bach / Aria sulla Quarta Corda (Sigla": [],
+  "Rick Miller": [
+    {
+      "albumName": "Temporal Illusion",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/91795df35e888b5da30d073593d19c97/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Perspective",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/605cd7a39c8a6b8498e6553f43d6fe1f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "One of the Many",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6cee83f23e48f0e831d40ba13499a0d0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Delusional",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8aa38d607803ac830d1101463b53a942/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Altered States",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a0e7aad5f6bc9561d20460be21b8bea9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "RICKSPLOSION",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/14248f5d5591c165035980d5ec72715e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Old Souls",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/48737ef18e96cde7b4cac64b88608110/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Rick Miller Songs (From Boom X and Other Shows)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4aa77d01eb96cdff2bbd9eb9007a9f7c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Unstuck in Time",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0aa425a7b9390007a2b0f660a1e05a41/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Breaking Point",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73ac91ca06f592dd1ac5a7ef6ee8766e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Heart of Darkness",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b400dc5ac416ffc4714d6ea1f6a1aee9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Immortal Remains",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b05b3f5dac97ada9c399ee4bb344c43a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Dark Dreams",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1a267ce17fdb464a05c4d4d75b934954/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "In the Shadows",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f8fbae94ced67458979c9043912172b8/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Falling Through Rainbows",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73d78816b1be0b351cdd2e6e13e0223d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Angel of My Soul",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/cc8fd4e5395e254cc83f0917c0b022e5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The End of Days",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8269a4ae2ce38f1b33712b624402109b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Dreamtigers",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/56a4f35b433fbf4db34152f286439f55/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Kitchen Sessions",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7866a4ebd1d6cae6b621856a2ec21479/1000x1000-000000-80-0-0.jpg"
+    }
+  ]
 }
