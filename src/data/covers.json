@@ -83687,7 +83687,16 @@
     }
   ],
   "Six Elements": [],
-  "B. Eno & D. Byrne": [],
+  "B. Eno & D. Byrne": [
+    {
+      "albumName": "Blue Morpho",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/45073cef8c26e405477d6b416a568137/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Earth",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/614abba9787564452875558fc01aa1f8/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Brian Eno": [
     {
       "albumName": "Liminal",
@@ -84313,5 +84322,6 @@
   "Brendan Perkins / Ladibs Cricket 4": [],
   "Juan Belda & The Bit Band": [],
   "Brendan Perkins / Ladibs Cricket 3": [],
-  "Arnaud Bukwald": []
+  "Arnaud Bukwald": [],
+  "Brendan Perkins / Ladibs Cricket 7": []
 }
