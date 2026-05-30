@@ -39835,7 +39835,28 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/04b0c8c209c1efb24100f80642b204ee/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Atila (Spain)": [],
+  "Atila (Spain)": [
+    {
+      "albumName": "WAS HERE",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f28437b8f17809beaf8fdbf01e109375/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "WAS HERE (DELUXE)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/759a48d8203a1c23080a98ed4a6a706e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "f.e.a.r.",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/69a6ac0fdf6803c01e7278a8158ec6b6/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Pink Elephant",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e8920f9a54065ba49f43120a807fa8d3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Skinny Dipping",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8afb4dacb46d786ec53258ede804cba8/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Atlantide": [
     {
       "albumName": "Il Cacciatore Di Orizzonti",
