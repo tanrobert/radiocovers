@@ -46100,7 +46100,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/51c5b948fae1d1fbf2ec007bf9b1a7d7/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Combojazz": [],
+  "Combojazz": [
+    {
+      "albumName": "Folkways",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/47f5154189aa7d6cc8aeac0a0052b161/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Comedy Of Errors": [
     {
       "albumName": "Threnody for a Dead Queen",
