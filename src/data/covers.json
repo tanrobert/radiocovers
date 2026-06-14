@@ -68123,7 +68123,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/da55a04dd33ef88496ea05cabb500376/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Nova Cascade": [],
+  "Nova Cascade": [
+    {
+      "albumName": "Celestial Drift",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c00be7c054dce70ae0bebe3306fc6abb/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Nova": [
     {
       "albumName": "Nova New",
