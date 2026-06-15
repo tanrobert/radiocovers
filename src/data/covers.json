@@ -36789,7 +36789,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/74c38ca5d601ea286f2f6bafde1f89a6/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Ad Maiora": [],
+  "Ad Maiora": [
+    {
+      "albumName": "Dream Awake",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/715ef61d0d6fc5d5b5d1d985b3cfbc43/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Advent": [
     {
       "albumName": "Natalie",
@@ -46234,7 +46239,16 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3bc82e7c562c45357f52e86290562884/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Contemporary Dead Finnish Music Ensamble": [],
+  "Contemporary Dead Finnish Music Ensamble": [
+    {
+      "albumName": "Dark Matters",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a9a6ed4eeceba5a3c43fc7ff06d27607/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ideal Standards, Vol. 1",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/80f845ef8a3e401ca90457631c2d9fe0/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Contemporary Dead Finnish Music Ensemble": [
     {
       "albumName": "Dark Matters",
