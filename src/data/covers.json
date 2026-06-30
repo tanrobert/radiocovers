@@ -43550,7 +43550,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3c666ae86aee3ed5bea0b9f069c5a35e/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Capsicum Red": [],
+  "Capsicum Red": [
+    {
+      "albumName": "Eternal Life",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ef9c4419f85009ce4e5bfb373b2248a8/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Captain Ilor": [
     {
       "albumName": "Hang Fire",
