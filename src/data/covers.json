@@ -84967,5 +84967,65 @@
       "albumName": "Freud : la sexualité féminine",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0ba4359ab0ce577dd415ba31c4de51b8/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "ESP Project": [
+    {
+      "albumName": "Square Root Of Three, Pt. 2",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d023c54c3ca5128e9017ba752da2385c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Silver Waves ~ Astral Dreams",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e72ea39b84136113305e3fd27c01ea7d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Reverie",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4c51b7abb2705c65f5f2cf05107e0abd/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Anarchic Curves",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dc99470edb55517f1bb1bbd5a1dc7650/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Phenomena",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/086b5f545fcbddc2b50bd0e08e6f10e9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Rising",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a6d16b962e4260d70d0f5507453def49/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Three",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7e148be1defa218209effaa1a7911bd3/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Esp Project": [
+    {
+      "albumName": "Square Root Of Three, Pt. 2",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d023c54c3ca5128e9017ba752da2385c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Silver Waves ~ Astral Dreams",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e72ea39b84136113305e3fd27c01ea7d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Reverie",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4c51b7abb2705c65f5f2cf05107e0abd/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Anarchic Curves",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dc99470edb55517f1bb1bbd5a1dc7650/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Phenomena",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/086b5f545fcbddc2b50bd0e08e6f10e9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Rising",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a6d16b962e4260d70d0f5507453def49/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Three",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7e148be1defa218209effaa1a7911bd3/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
