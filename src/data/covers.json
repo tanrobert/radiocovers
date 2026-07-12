@@ -45739,7 +45739,16 @@
   "Classic Rock - The Manhattan Transfer": [],
   "Classic Rock - The Style Council": [],
   "Classic Rock - The Temptations": [],
-  "Classic Rock - The Who": [],
+  "Classic Rock - The Who": [
+    {
+      "albumName": "Strings and Wood",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/59bbdef5fc6a10315858d83774fa375d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Coffeeshop Acoustics",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ee0b9d5a5744ec537ae1369077911f3f/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Classic Rock - Timmy Thomas": [],
   "Classic Rock - Tiromancino": [],
   "Classic Rock - Tom Robinson": [],
