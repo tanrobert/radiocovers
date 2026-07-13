@@ -78030,7 +78030,32 @@
     }
   ],
   "The Alan Parsons Project / The Sicilian Defence": [],
-  "The Boot Lagoon": [],
+  "The Boot Lagoon": [
+    {
+      "albumName": "Boby Lapointe a 100 ans",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0ad875e2be8ca4fb472cfbfeaafd1b6e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Collection 25 CM",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/3e6039f462ecd2c89cfc0b82a8696040/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Comprend Qui Peut",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0b7d85f3ffb30009fb544aa2b5034736/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Boby Lapointe",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7e3a7591233b18142b7dcccfc7da6440/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "L'Integrale Des Enregistrements",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6cb1d989152c369c9780bc77a4ce75d2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Avanie Et Framboise",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2a0dfcf18392595610ac07c54e66be20/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "The Chronicles Of Father Robin": [
     {
       "albumName": "The Songs & Tales of Airoea - Book III",
