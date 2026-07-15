@@ -65562,7 +65562,44 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/12c9700ced07806105b9ed58b0c4e694/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Midnight Sun": [],
+  "Midnight Sun": [
+    {
+      "albumName": "God for a day",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d83d972a3b6b548afaf46c4e457282f6/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "EXCESS PARTY",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/43f4087fd73f0c0e9b9da6ff237afa97/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Atemporal",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d3d8084eab1d4af084d7ffd96201e148/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "PARADOX",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/83661b54f45a8c0e9793097815149e91/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Metanoia",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d205d23cb4d86f50240e2273a58cd3fc/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Sunrise",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4ed1c675cba696e7a0475c0c73357c70/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Black Madonna",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/437e815a416d9bdb27d8bf9c4c2236bd/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Without A Label",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4d77010511192aba12c58bd4e76e71bc/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Midnight Sun",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fb3865b5149e2558ca57384d4f7c06d4/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Mighty Baby": [
     {
       "albumName": "Tasting the Life: Live 1971 (Live)",
@@ -85241,5 +85278,6 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d9a235da4b7956ebdbafa02364d7b71d/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Brendan Perkins / Ladibs Cricket 2": []
+  "Brendan Perkins / Ladibs Cricket 2": [],
+  "Robert Fripp, Tony Levin & Jerry Marotta": []
 }
