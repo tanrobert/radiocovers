@@ -71571,7 +71571,12 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d8753c67b7db65777a9662e583ab6ea6/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Protocollo C": [],
+  "Protocollo C": [
+    {
+      "albumName": "Sequence 01",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bb6466ca2aa7cc6997c4abff79f4ea8b/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Psyche Floyd (Rauy Cardoso": [],
   "Psyche Floyd (Rauy Cardoso)": [],
   "Psychedelic Sun's": [
@@ -85288,5 +85293,6 @@
     }
   ],
   "Brendan Perkins / Ladibs Cricket 6": [],
-  "Ibis / Divine Mountain": []
+  "Ibis / Divine Mountain": [],
+  "Classic Rock - Nik Kershaw": []
 }
