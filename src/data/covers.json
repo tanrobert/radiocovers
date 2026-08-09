@@ -84087,7 +84087,16 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/540fef6cf19ba200fc036ca42fa099b9/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Six Elements": [],
+  "Six Elements": [
+    {
+      "albumName": "The Stories of Love",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6809bfdb2d47d85185af5217eefee27e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Primary Elements",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6f1485d9e411c87ce063a1efc8977269/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "B. Eno & D. Byrne": [
     {
       "albumName": "Blue Morpho",
@@ -85391,5 +85400,11 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8ae4bf8a154d469f5b06526103795783/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Astral Hawk Machine": []
+  "Astral Hawk Machine": [],
+  "Le Vele di Oniride": [
+    {
+      "albumName": "La Quadratura del Cerchio",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1fa9f62c77277af885766d61361c36cf/1000x1000-000000-80-0-0.jpg"
+    }
+  ]
 }
