@@ -85418,5 +85418,19 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ba90c08e6cd6bfd239fb2c4da3493519/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Jonathan Scott / J. S. Bach": []
+  "Jonathan Scott / J. S. Bach": [],
+  "The Gardening Club": [
+    {
+      "albumName": "Bridge of Spirits",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/003076947c909af9f479090ca7244b00/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Boy on a Bike",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/511800d5319aabc12825089573f6d920/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Gardening Club",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/fac546ad0b5916ba268b98f71455fea7/1000x1000-000000-80-0-0.jpg"
+    }
+  ]
 }
