@@ -69704,7 +69704,28 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ae105455168f5bfa24c032a59f64c825/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "P.F. Echoes": [],
+  "P.F. Echoes": [
+    {
+      "albumName": "EODM Presents Boots Electric Performing The Best Songs We Never Wrote",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d4a37952510ee9bcdde4c22825642e57/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "I Love You All The Time: Live At The Olympia Paris",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/c7cdc2c4af0b5480ff5c2862b6396db7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Heart On",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f0018aca4a5d8630b51f508a2ab2fc3b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Death By Sexy",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0065ef41a6208ace02167c8d3c977f80/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Peace Love Death Metal",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bd6bcafaeea005d9139771cf0a244b5e/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "PFM & Ian Anderson (Jethro Tull)": [],
   "PFM": [
     {
@@ -85437,6 +85458,12 @@
     {
       "albumName": "Julia och Nattpappan",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/db17d59621b6c05a6ef3e217011a06f7/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Teodicea": [
+    {
+      "albumName": "Alea",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/223eeb0abbcc20db8e3d4c0ec24e1dd4/1000x1000-000000-80-0-0.jpg"
     }
   ]
 }
