@@ -85489,5 +85489,29 @@
       "albumName": "Il Mostro di Firenze",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d5c4bfe625d8378886c95bbcd483a7ce/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Seldon": [
+    {
+      "albumName": "Per quale sentiero",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/0b593db65a709f1a171a14b1a44c3460/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Syrinx Call": [
+    {
+      "albumName": "Mirrorneuron 2",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/73a9caf332739e1d5431374dc26ca4e5/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Mirrorneuron",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a694a49606a090402ad589bf22a3c048/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Moon On A Stick",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1c4ffcb4cf0137224d1897aa208f49b7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Wind in the Woods",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f999918e882f71e9e229d435035799a1/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
