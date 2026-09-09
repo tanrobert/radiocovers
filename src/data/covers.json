@@ -85519,5 +85519,19 @@
       "albumName": "Senza Nome",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5cf28d4073f734ac8d21e8f411d06aae/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "The Bardic Depths": [
+    {
+      "albumName": "What We Really Like in Stories",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d16a6755f136fb452860ebb5cbda845a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Promises of Hope",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/08e39573d5932795549c01997ceb560d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Bardic Depths",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8f09e313597dd3266a20eb98a63147ae/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
