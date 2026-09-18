@@ -79867,7 +79867,36 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/88e2b2684b997e47f9e68bfbb596c616/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Triumvirat": [],
+  "Triumvirat": [
+    {
+      "albumName": "Essential",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/42337c83d62a7316072edfec919660e0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Old Loves Die Hard",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/dfb330b262a9aff5acbe7935e8f5629e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Illusions On A Double Dimple",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/700dc08c2c0c0860fccda9a4b2703dfa/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Mediterranean Tales",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b528bcf6475c657a3d744655fd1aa866/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Russian Roulette",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e088fe95ceec4c40da70dd9057c2f7ca/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "À La Carte",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/028fafd30264161e18109c302795199b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Spartacus",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b737b49543f88893098eb1e1c7a874f6/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Tryo": [
     {
       "albumName": "Tout au Tour (Live)",
@@ -85372,7 +85401,12 @@
   ],
   "Brendan Perkins / Ladibs Cricket 2": [],
   "Robert Fripp, Tony Levin & Jerry Marotta": [],
-  "Karl Richter / Bach": [],
+  "Karl Richter / Bach": [
+    {
+      "albumName": "Bach: Overture No. 2 in B minor, BWV 1067 & Overture No. 3 in D major, BWV 1068 (Remastered)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/038743db08e7f79fd50b6147ac0f48aa/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Manic Vice": [
     {
       "albumName": "Sólo en Nuestra Cabeza",
