@@ -85633,5 +85633,15 @@
   ],
   "Classic Rock - Berlin": [],
   "Classic Rock - Cock Robin": [],
-  "Classic Rock - The Cardigans": []
+  "Classic Rock - The Cardigans": [],
+  "Castle Mountain Moon": [
+    {
+      "albumName": "A Laymans's Guide to Unobtainium",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5bf35d05423ace0f1e24393bda449293/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Six Tales Of Perception",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ab3e3a5977384be4c20a524bafc383fd/1000x1000-000000-80-0-0.jpg"
+    }
+  ]
 }
