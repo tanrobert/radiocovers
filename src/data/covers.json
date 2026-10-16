@@ -57896,7 +57896,16 @@
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bfe05a8f77729aab365f2c00d373ad1e/1000x1000-000000-80-0-0.jpg"
     }
   ],
-  "Il Castello di Atlante": [],
+  "Il Castello di Atlante": [
+    {
+      "albumName": "L'Ippogrifo",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5bc238e19f1ccd52da092577eaf514c0/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Passo dopo passo",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a2e69e883931b4c48e290964d4f114e0/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Il Cerchio d'Oro": [
     {
       "albumName": "Pangea e Le Tre Lune",
