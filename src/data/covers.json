@@ -85757,5 +85757,69 @@
       "albumName": "Scott Fields: Samuel",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ecd868afe16ad715f04545c7576dd724/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Iamthemorning": [
+    {
+      "albumName": "Live at St Matthias",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9c593e5c12602615fc8ba33e69007f54/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Bell",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1543bf7cace334c1294107b260fa9116/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Ocean Sounds",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/75ab4891881cde84fda928007ed24b9f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Lighthouse",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8b17a9b31f0e9e7e80268743349db4d9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "From the House of Arts",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/223384814f9d9a2479d517a2a272f47b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Belighted",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/26d0e4c512cc4e2823539b6825daee4e/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Iamthemorning",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8d37235a32b90b01960891b38ad33cea/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Karnataka": [
+    {
+      "albumName": "Requiem for a Night (Live in Zoetermeer)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/41cb651d8f30b0485563d0d1d2f800e9/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Requiem for a Dream",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bb70526313fe0f46d022ccbf60c9f43d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Secrets of Angels",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/848f6cb618793474c487b29b6a37a614/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "New Light",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/2991af4cdf275b5520afc1cfb3c4e06b/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Gathering Light",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/f13805243e84008a2123c62093d84246/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Strange Behaviour",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/d441d80bd84bb89b0ccd1d471d5e74c2/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Delicate Flame of Desire",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5861f72fb3d70fd08f7368b6a6118ce6/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "The Storm",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6768ac5c5ab54ec79db30d2a034fee62/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
