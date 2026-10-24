@@ -2,7 +2,7 @@
 interface Props {
   title?: string;
 }
-const { title = 'Radio Prog — Album Covers' } = Astro.props;
+const { title = 'Radio Prog | Album Covers' } = Astro.props;
 ---
 <!doctype html>
 <html lang="it">
@@ -14,7 +14,7 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <a href="#main" class="skip-link">Salta al contenuto</a>
@@ -30,10 +30,10 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
   }
 
   :root {
-    /* Palette base — Ambra Broadcast */
-    --ambra:   hsl(36 92% 52%);   /* #F59B14 — VU meter acceso */
-    --marrone: hsl(24 22%  9%);   /* #1C1612 — housing amplificatore */
-    --avorio:  hsl(43 35% 86%);   /* #E8E1CF — carta invecchiata */
+    /* Palette base: giallo del logo */
+    --giallo:  hsl(55 89% 53%);   /* #F2DF1D: giallo del logo */
+    --marrone: hsl(24 22%  9%);   /* #1C1612: housing amplificatore */
+    --bianco:  hsl(0 0% 100%);    /* #FFFFFF: tutti i testi non gialli */
 
     /* Scala marrone */
     --marrone-05: hsl(from var(--marrone) h s  7%);
@@ -43,12 +43,12 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
     --marrone-55: hsl(from var(--marrone) h s 42%);
     --marrone-89: hsl(from var(--marrone) h s 82%);
 
-    /* Scala ambra */
-    --ambra-13: hsl(from var(--ambra) h s 10%);
-    --ambra-21: hsl(from var(--ambra) h s 18%);
-    --ambra-34: hsl(from var(--ambra) h s 30%);
-    --ambra-55: var(--ambra);
-    --ambra-89: hsl(from var(--ambra) h s 84%);
+    /* Scala giallo */
+    --giallo-13: hsl(from var(--giallo) h s 10%);
+    --giallo-21: hsl(from var(--giallo) h s 18%);
+    --giallo-34: hsl(from var(--giallo) h s 30%);
+    --giallo-55: var(--giallo);
+    --giallo-89: hsl(from var(--giallo) h s 84%);
 
     /* Spaziatura Fibonacci */
     --s5: 5px; --s8: 8px; --s13: 13px; --s21: 21px;
@@ -58,19 +58,20 @@ const { title = 'Radio Prog — Album Covers' } = Astro.props;
     --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600;
     --fw-bold: 700; --fw-extrabold: 800;
 
-    /* Semantic — dark theme */
+    /* Semantic: dark theme */
     --bg:      var(--marrone-05);
     --surface: var(--marrone-21);
-    --text:    var(--avorio);
-    --muted:   var(--marrone-55);
-    --accent:  var(--ambra);
+    --text:    var(--bianco);
+    --accent:  var(--giallo);
   }
 
   html {
     background: var(--bg);
     color: var(--text);
-    font-family: 'Space Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
   }
+
+  button, input { font-family: inherit; }
 
   body {
     min-height: 100vh;

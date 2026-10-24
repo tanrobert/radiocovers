@@ -1,0 +1,60 @@
+---
+/**
+ * TornaSu: pulsante fisso in basso a destra, appare appena si inizia a scrollare.
+ * Box giallo con scritta nera; riporta in cima alla pagina.
+ */
+---
+
+<button class="torna-su" type="button" aria-label="Torna all'inizio della pagina">
+  <span aria-hidden="true">↑</span> Torna su
+</button>
+
+<style>
+  .torna-su {
+    position: fixed;
+    right: max(var(--s21), env(safe-area-inset-right));
+    bottom: max(var(--s21), env(safe-area-inset-bottom));
+    z-index: 100;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 4px;
+    background: var(--accent);
+    color: #000;
+    font-size: 0.72rem;
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    touch-action: manipulation;
+    /* Nascosto finché non si scrolla: visibility lo toglie anche dal Tab */
+    opacity: 0;
+    translate: 0 8px;
+    visibility: hidden;
+    transition: opacity 0.2s, translate 0.2s, visibility 0.2s;
+  }
+
+  .torna-su.is-visible {
+    opacity: 1;
+    translate: 0 0;
+    visibility: visible;
+  }
+
+  .torna-su:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 3px;
+  }
+</style>
+
+<script>
+  const btn = document.querySelector<HTMLButtonElement>('.torna-su');
+  if (btn) {
+    const update = () => btn.classList.toggle('is-visible', window.scrollY > 120);
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+
+    btn.addEventListener('click', () => {
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
+    });
+  }
+</script>

@@ -1,5 +1,5 @@
 """
-fetch_covers.py — scarica le copertine album via Deezer API.
+fetch_covers.py: scarica le copertine album via Deezer API.
 
 Deezer: gratuita, nessuna API key, rate limit generoso (~50 req/s).
 

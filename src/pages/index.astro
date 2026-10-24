@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import MadeBy from '../components/MadeBy.astro';
+import TornaSu from '../components/TornaSu.astro';
 import coversRaw from '../data/covers.json';
 
 type Album = { albumName: string; coverUrl: string };
@@ -16,19 +18,28 @@ for (const [artistName, artistAlbums] of Object.entries(coversData)) {
 albums.sort((a, b) => a.artistName.localeCompare(b.artistName, 'it'));
 
 const totalAlbums  = albums.length;
-const totalArtists = Object.keys(coversData).length;
+const totalArtists = new Set(albums.map((a) => a.artistName)).size;
+
+// Data della build: Vercel ricostruisce il sito solo quando il bot aggiorna covers.json
+const buildDate = new Date();
+const lastUpdate = buildDate.toLocaleDateString('it-IT', {
+  day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Rome',
+});
 ---
 
 <Layout>
   <header>
-    <h1>CALEIDOSCOPIO</h1>
+    <h1><img src="/caleidoscopio-logo.svg" alt="Caleidoscopio" width="420" height="64" fetchpriority="high" /></h1>
     <p class="tagline">archivio di copertine progressive</p>
     <div class="stats">
       <div class="stat">
         <span class="stat-num">{totalAlbums}</span>
         <span class="stat-label">album</span>
       </div>
-      <span class="stat-sep">—</span>
+      <div class="stat stat-update">
+        <span class="stat-label">ultimo aggiornamento</span>
+        <time class="stat-date" datetime={buildDate.toISOString()}>{lastUpdate}</time>
+      </div>
       <div class="stat">
         <span class="stat-num">{totalArtists}</span>
         <span class="stat-label">artisti</span>
@@ -61,7 +72,7 @@ const totalArtists = Object.keys(coversData).length;
           <div class="img-wrap">
             <img
               src={coverUrl}
-              alt={`${artistName} — ${albumName}`}
+              alt={`${artistName}, ${albumName}`}
               loading="lazy"
               decoding="async"
               onerror="this.src='/placeholder.svg'"
@@ -75,9 +86,24 @@ const totalArtists = Object.keys(coversData).length;
       ))}
     </ul>
   </main>
+
+  <footer class="site-footer">
+    <MadeBy />
+  </footer>
+
+  <TornaSu />
 </Layout>
 
 <style>
+  .site-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--surface);
+    font-size: 0.85rem;
+  }
+
   header {
     text-align: center;
     padding-bottom: 2.5rem;
@@ -86,16 +112,19 @@ const totalArtists = Object.keys(coversData).length;
   }
 
   h1 {
-    font-size: clamp(1.8rem, 5vw, 3rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: var(--accent);
-    text-wrap: balance;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Logo con icona e scritta: proporzioni 1652.73 × 251.46 */
+  h1 img {
+    width: min(420px, 80vw);
+    height: auto;
   }
 
   .tagline {
     margin-top: 0.35rem;
-    color: var(--muted);
+    color: var(--text);
     font-size: 0.78rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -128,14 +157,24 @@ const totalArtists = Object.keys(coversData).length;
     font-size: 0.65rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--muted);
+    color: var(--text);
   }
 
-  .stat-sep {
-    color: var(--muted);
-    opacity: 0.3;
-    font-size: 1.5rem;
-    align-self: center;
+  .stat-update {
+    gap: 0.3rem;
+    max-width: 12rem;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .stat-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  @media (max-width: 480px) {
+    .stats { gap: 1rem; }
   }
 
   .grid {
@@ -190,7 +229,7 @@ const totalArtists = Object.keys(coversData).length;
   .artist {
     font-size: 0.72rem;
     font-weight: 600;
-    color: var(--avorio);
+    color: var(--text);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -198,7 +237,7 @@ const totalArtists = Object.keys(coversData).length;
 
   .album {
     font-size: 0.65rem;
-    color: hsl(from var(--avorio) h s l / 0.7);
+    color: var(--text);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -222,15 +261,15 @@ const totalArtists = Object.keys(coversData).length;
     border: 1px solid transparent;
     border-radius: 6px;
     background: transparent;
-    color: var(--muted);
+    color: var(--text);
     cursor: pointer;
     transition: border-color 0.2s, color 0.2s;
     touch-action: manipulation;
   }
 
   .sort-btn.active {
-    border-color: var(--muted);
-    color: var(--muted);
+    border-color: var(--text);
+    color: var(--text);
   }
 
   .sort-btn:hover:not(.active) {
@@ -254,7 +293,7 @@ const totalArtists = Object.keys(coversData).length;
     background: transparent;
     border: 1px solid transparent;
     border-radius: 6px;
-    color: var(--muted);
+    color: var(--text);
     font-size: 0.78rem;
     padding: 3px 8px;
     width: 140px;
@@ -262,8 +301,10 @@ const totalArtists = Object.keys(coversData).length;
     outline: none;
   }
 
+  .search-input::placeholder { color: var(--text); }
+
   .search-input:focus {
-    border-color: var(--muted);
+    border-color: var(--text);
     color: var(--text);
     width: 200px;
   }
@@ -275,8 +316,7 @@ const totalArtists = Object.keys(coversData).length;
   }
 
   .sep-v {
-    color: var(--muted);
-    opacity: 0.3;
+    color: var(--text);
     font-size: 0.8rem;
     align-self: center;
     user-select: none;

@@ -1,0 +1,110 @@
+---
+/**
+ * MadeBy: credito "Creato da Roberto Tanasi", modello per tutti i siti.
+ *
+ * Autonomo: il marchio R è inline e prende il colore del testo, basta copiare questo file.
+ * Testo del link per Google e screen reader: "Creato da Roberto Tanasi" (testo nascosto).
+ * Quando entra nello schermo la prima volta il testo si scrive lettera per lettera, poi appare la R.
+ * Hover: testo e R passano insieme dal bianco al rosso del marchio.
+ * Font di sistema: nessun font da scaricare.
+ *
+ * Props:
+ *   label      (opzionale) testo visibile, default "Creato da" (es. "Made by" per siti in inglese)
+ *   href       (opzionale) default https://www.robertotanasi.it/
+ *   color      (opzionale) colore a riposo, default bianco
+ *   hoverColor (opzionale) colore all'hover, default rosso del marchio
+ */
+interface Props {
+  label?: string;
+  href?: string;
+  color?: string;
+  hoverColor?: string;
+}
+
+const {
+  label = 'Creato da',
+  href = 'https://www.robertotanasi.it/',
+  color = '#fff',
+  hoverColor = '#F13E23',
+} = Astro.props;
+
+const letters = [...label];
+---
+
+<a class="madeby" href={href} target="_blank" rel="noopener">
+  <span class="madeby__sr">{label} Roberto Tanasi</span>
+  <span class="madeby__text" aria-hidden="true">
+    {letters.map((ch, i) => <span class="madeby__char" style={`--i:${i}`}>{ch === ' ' ? ' ' : ch}</span>)}
+  </span>
+  <svg class="madeby__logo" style={`--i:${letters.length}`} viewBox="0 0 618.2 618.2" fill="currentColor" aria-hidden="true">
+    <path d="M586,308.2c21-32.3,32.1-70.1,32.1-108.6c0-52.9-21-103.7-58.5-141.1C522.3,21,471.5,0,418.6,0H309.1h-72.7H219H45.5H0v618.2h236.4V381.8l118.2,236.4h263.6L500,381.8C535.2,366.1,565.1,340.5,586,308.2z"/>
+  </svg>
+</a>
+<!-- Arma l'animazione prima del primo disegno, così il testo non appare e poi sparisce -->
+<script is:inline>
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window)
+    document.currentScript.previousElementSibling.classList.add('madeby--armed');
+</script>
+
+<style define:vars={{ color, hoverColor }}>
+  .madeby {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--color);
+    text-decoration: none;
+    white-space: nowrap;
+    /* Area di tocco più grande (min ~32px) senza spostare il layout */
+    padding: 7px;
+    margin: -7px;
+    transition: color 200ms ease;
+  }
+
+  /* Testo e R insieme (sovrascrive eventuali a:hover globali del sito) */
+  .madeby:hover { color: var(--hoverColor); }
+
+  .madeby__sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .madeby__logo {
+    width: 1.6em;
+    height: 1.6em;
+    display: block;
+  }
+
+  /* Senza JS (o con movimento ridotto) tutto resta visibile: l'animazione parte solo se lo script arma il componente */
+  .madeby--armed .madeby__char,
+  .madeby--armed .madeby__logo { opacity: 0; }
+
+  .madeby--play .madeby__char {
+    animation: madeby-type 1ms steps(1) forwards;
+    animation-delay: calc(var(--i) * 50ms);
+  }
+
+  .madeby--play .madeby__logo {
+    animation: madeby-fade 300ms ease-out forwards;
+    animation-delay: calc(var(--i) * 50ms + 100ms);
+  }
+
+  @keyframes madeby-type { to { opacity: 1; } }
+  @keyframes madeby-fade { to { opacity: 1; } }
+</style>
+
+<script>
+  // Parte una sola volta, quando il credito entra nello schermo
+  document.querySelectorAll<HTMLElement>('.madeby--armed').forEach((el) => {
+    const io = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      el.classList.add('madeby--play');
+      io.disconnect();
+    });
+    io.observe(el);
+  });
+</script>
