@@ -49341,5 +49341,41 @@
       "albumName": "The Storm",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6768ac5c5ab54ec79db30d2a034fee62/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Foschia": [
+    {
+      "albumName": "The Devil Wears Prada 2 (Music From The Motion Picture)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ba3e4221f68fb24fc5128a3e94050f7f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Alligator Bites Never Heal (Extended)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/4a181dcf85e5d2935b61b57e2e31ce8a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Alligator Bites Never Heal",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/6859bfeb4c552a6e9de93b5eec59098c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Coven Music Session, Vol. 1",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/9a6350ada6281e5730f700ae9f6f9490/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
+  "Panic Room": [
+    {
+      "albumName": "Incarnate",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/1343cdab19c39b6d32f4a67118eb7c18/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Skin",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/a9e565c0cdf45e722fea4e20a23e481d/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Equilibrium",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/45963c3573a8dce4a5e9b5c91efa3c26/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Satellite",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5aab12ea28339c889d960f330ddaf0b2/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
