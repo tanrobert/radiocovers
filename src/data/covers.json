@@ -49377,5 +49377,36 @@
       "albumName": "Satellite",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/5aab12ea28339c889d960f330ddaf0b2/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Classic Rock - The Beatles": [],
+  "Earth & Fire": [
+    {
+      "albumName": "Andromeda Girl",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/8933d59888dcab59fc79d111b6d52e4c/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Reality Fills Fantasy",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/b25e97b47d5fc1a664fdd13198cae501/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Gate To Infinity",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/33cc3a5f665214d71e25627a8acf4a1f/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "To The World Of The Future",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/bce185e9695324e33b50f7cec85c2c04/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Atlantis",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/e2168204399160b0574a74595561d6cf/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Song Of The Marching Children",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/674f144c280284f0cd7f688d39ccf6d4/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Earth & Fire",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/ff5e7bc97bab391446448a5d28ecb3be/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
