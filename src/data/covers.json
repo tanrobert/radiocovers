@@ -14227,7 +14227,20 @@
     }
   ],
   "Emisfero Boreale": [],
-  "Endless Season": [],
+  "Endless Season": [
+    {
+      "albumName": "A Different Sway o’ da Weep",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/03b25eda0e03016785706fc388fb59a7/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "In Your Eyes",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/45e97733790012d24b381ed1d563aecc/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Endless Season",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/12e07abe9c73dc1949b53f2176b6acdd/1000x1000-000000-80-0-0.jpg"
+    }
+  ],
   "Endless Season / Deep Surface (Outro": [],
   "Eneide": [
     {
