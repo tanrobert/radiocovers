@@ -49449,5 +49449,19 @@
       "albumName": "Canzoni allo specchio",
       "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7edce05a891fda7bf7bb41fe458e9533/1000x1000-000000-80-0-0.jpg"
     }
+  ],
+  "Glass Hammer": [
+    {
+      "albumName": "Anthology, Vol. 2 (2011-2020)",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/376655cf746b581c128e4bfb36cddae3/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "Three Cheers For The Broken-Hearted",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/7af3a4f9a76cf7003ca09e3344192092/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "albumName": "On Our Own",
+      "coverUrl": "https://cdn-images.dzcdn.net/images/cover/229a955443e363002e474a62d529a4a5/1000x1000-000000-80-0-0.jpg"
+    }
   ]
 }
